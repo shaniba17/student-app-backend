@@ -1,6 +1,6 @@
 const mongoose=require("mongoose")
 const schema=mongoose.Schema({
-    "name":String,
+    "name":{type:String,required:true},
     "rollno":String,
     "college":String,
     "address":String
